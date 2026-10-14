@@ -1,0 +1,29 @@
+# Security & Credentials - NEVER commit secrets
+.env
+.env*.local
+*.env
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Streamlit run cache
+.streamlit/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
